@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	stsLocal "github.com/hashicorp/vault-plugin-auth-tencentcloud/sdk/tencentcloud/sts/v20180813"
+	stsLocal "github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud/sdk/tencentcloud/sts/v20180813"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/regions"

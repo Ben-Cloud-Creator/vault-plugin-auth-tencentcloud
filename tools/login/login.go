@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hashicorp/vault-plugin-auth-tencentcloud/clients"
-	"github.com/hashicorp/vault-plugin-auth-tencentcloud/tools"
+	"github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud/clients"
+	"github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud/tools"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 )
 

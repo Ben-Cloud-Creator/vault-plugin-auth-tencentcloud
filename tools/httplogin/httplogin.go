@@ -8,17 +8,18 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/hashicorp/vault-plugin-auth-tencentcloud/clients"
-	"github.com/hashicorp/vault-plugin-auth-tencentcloud/tools"
+	"github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud/clients"
+	"github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud/tools"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 )
 
 /*
-   Test auth through http api
-   curl \
-    --request POST \
-    --data {"region":"","roleName":"","vaultAddr":"","secret_id":"","secret_key":"","token":""} \
-    http://127.0.0.1:8088/login
+Test auth through http api
+
+	curl \
+	 --request POST \
+	 --data {"region":"","roleName":"","vaultAddr":"","secret_id":"","secret_key":"","token":""} \
+	 http://127.0.0.1:8088/login
 */
 func LoginServer(w http.ResponseWriter, req *http.Request) {
 	s, _ := ioutil.ReadAll(req.Body)

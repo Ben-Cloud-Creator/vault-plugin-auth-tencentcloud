@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud/clients"
+	"github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud/tools"
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault-plugin-auth-tencentcloud/clients"
-	"github.com/hashicorp/vault-plugin-auth-tencentcloud/tools"
 	"github.com/hashicorp/vault/sdk/logical"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile"

@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
+	tencentcloud "github.com/Ben-Cloud-Creator/vault-plugin-auth-tencentcloud"
 	"github.com/hashicorp/go-hclog"
-	tencentcloud "github.com/hashicorp/vault-plugin-auth-tencentcloud"
 	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/plugin"
 )
